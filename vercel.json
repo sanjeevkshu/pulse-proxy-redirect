@@ -3,7 +3,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/((?!\\.well-known(?:$|/)).*)",
+      "source": "/(.*)",
       "destination": "https://main--ema-da-demo--sanjeevkshu.aem.live"
     }
   ]
