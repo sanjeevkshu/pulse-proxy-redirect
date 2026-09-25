@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://main--ema-da-demo--sanjeevkshu.aem.live/"
+    }
+  ]
+}
