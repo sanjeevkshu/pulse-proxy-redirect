@@ -1,9 +1,10 @@
 {
   "version": 2,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://main--ema-da-demo--sanjeevkshu.aem.live/:path*"
+      "source": "/((?!\\.well-known(?:$|/)).*)",
+      "destination": "https://main--ema-da-demo--sanjeevkshu.aem.live"
     }
   ]
 }
